@@ -1,0 +1,13 @@
+Source: selenium-scripts
+Section: net
+Priority: optional
+Maintainer: Steffen Rumberger <inne@sdf-eu.org>
+Build-Depends: debhelper (>= 10.0.0)
+Build-Depends-Indep: libfile-sharedir-install-perl
+Standards-Version: 3.9.6
+
+Package: selenium-scripts
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends}
+Description: Selenium scripts collection
+ Another Selenium scripts collection.
